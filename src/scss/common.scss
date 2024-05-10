@@ -1,0 +1,21 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    &--sm{
+        max-width: 800px;
+    }
+
+    &--md{
+        max-width: 1050px;
+    }
+
+    &--lg{
+        max-width: 1300px;
+    }
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #E5E5E5;
+}

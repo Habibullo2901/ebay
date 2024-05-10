@@ -1,0 +1,40 @@
+.cart__title {
+    font-family: 'Inter' !important;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;;
+}
+
+.cart__empty--cont{
+    height: 45vh;  
+}  
+
+.cart__empty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+
+    p{
+        font-family: 'Inter' !important;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #000000;
+    }
+
+    .cart__btn{
+        font-family: 'Inter' !important;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 15px 55px;
+        border: none;
+        background-color: #3665F3;
+        border-radius: 30px;
+        color: white;
+    }
+}

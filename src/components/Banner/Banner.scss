@@ -1,0 +1,259 @@
+.banner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+    img {
+        max-height: 250px;
+    }
+
+    img:last-child {
+        background-color: #0A9294;
+        margin-left: 20px;
+    }
+}
+
+.banner__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 25px 43px 25px;
+    max-width: 450px;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+
+    p:first-of-type {
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 11px;
+        text-align: left;
+        color: #707070;
+        margin-bottom: 5px;
+    }
+
+    img {
+        height: 40px;
+    }
+
+    h5 {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        color: #191919;
+        margin: 13px 0 7px;
+    }
+
+    p:last-of-type {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20.02px;
+        text-align: left;
+        color: #707070;
+        margin-bottom: 15px;
+    }
+}
+
+button {
+    padding: 8px 20px;
+    border: 1px solid;
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.73px;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+
+    .banner__icon {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .banner {
+        // max-width: 900px;
+        
+
+        img {
+            max-height: 200px;
+        }
+
+        img:last-child {
+            max-height: 200px;
+            background-color: #0A9294;
+            margin-left: 20px;
+        }
+    }
+
+    .banner__list {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px 20px 20px;
+        max-width: 450px;
+        width: 100%;
+        border: 1px solid #E5E5E5;
+        border-radius: 3px;
+
+        p:first-of-type {
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 11px;
+            text-align: left;
+            color: #707070;
+            margin-bottom: 5px;
+        }
+
+        img {
+            height: 30px;
+        }
+
+        h5 {
+            font-size: 18px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: left;
+            color: #191919;
+            margin: 13px 0 7px;
+        }
+
+        p:last-of-type {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 20.02px;
+            text-align: left;
+            color: #707070;
+            margin-bottom: 15px;
+        }
+    }
+
+    button {
+        padding: 5px 15px;
+        border: 1px solid;
+
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15.73px;
+        text-align: center;
+        color: #000000;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+
+        .banner__icon {
+            font-size: 25px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+    .banner {
+        max-width: 900px;
+
+        img {
+            max-height: 200px;
+        }
+        img:last-child {
+            display: none;
+        }
+    }
+    .banner__list {
+        max-width: 650px;
+        width: 100%;
+        padding: 10px 15px 25px;
+
+        p:first-of-type {
+            font-size: 15px;
+        }
+
+        h5 {
+            font-size: 16px;
+        }
+
+        p:last-of-type {
+            font-size: 12px;
+        }
+    }
+
+    .button {
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .banner {
+
+        img {
+            max-height: 200px;
+        }
+        img:last-child {
+            display: none;
+        }
+    }
+
+    .banner__list {
+        max-width: 670px;
+        padding: 10px 0 25px 15px;
+
+        p:first-of-type {
+            font-size: 15px;
+        }
+
+        h5 {
+            font-size: 16px;
+        }
+
+        p:last-of-type {
+            font-size: 12px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        max-width: 580px;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .banner__list {
+        max-width: 580px;
+        width: 100%;
+        padding: 10px 0 25px 10px;
+
+        p:first-of-type {
+            font-size: 15px;
+        }
+
+        img {
+            width: 50px;
+        }
+
+        h5 {
+            font-size: 16px;
+        }
+
+        p:last-of-type {
+            font-size: 12px;
+        }
+    }
+}

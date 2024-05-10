@@ -1,0 +1,119 @@
+#app {
+    height: 100%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    // background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    // background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    // display: block;
+    // width: 100%;
+    // height: 100%;
+    object-fit: cover;
+}
+
+.products__slide {
+    // width: 90px;
+    // height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 5%;
+        margin-bottom: 15px;
+        object-fit: cover;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.55px;
+        text-align: center;
+        color: #191919;
+    }
+}
+
+.products__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 50px;
+
+    p {
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        color: #191919;
+    }
+
+    a {
+        font-size: 14px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        color: #191919; 
+        margin-left: 50px;  
+        display: flex;
+        align-items: center;     
+    }
+}
+
+.products__icon {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .products__slide {
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .products__bottom {
+        p {
+            font-size: 18px;
+            line-height:  20px;
+        }
+
+        a {
+            font-size: 14px;
+        }
+    }
+}
