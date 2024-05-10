@@ -59,10 +59,6 @@ const Singleproducts = () => {
         <div className='singleproduct__bottom'>
           <div className='singleproduct__imgcarousel'>
             <Swiper
-              style={{
-                '--swiper-navigation-color': '#fff',
-                '--swiper-pagination-color': '#fff',
-              }}
               spaceBetween={10}
               navigation={true}
               thumbs={{ swiper: thumbsSwiper }}

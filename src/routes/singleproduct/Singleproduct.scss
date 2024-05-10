@@ -109,6 +109,10 @@ body {
     background-color: #ababab;
     padding: 5px;
     border-radius: 10px;
+
+    &::after {
+        color: #000;
+    }
 }
 
 // *****
